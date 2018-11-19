@@ -18,7 +18,7 @@ title: CBHS PAWS
 subtitle: "CBHS club devoted to helping animals"
 url: "https://saleguas.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/CBHSPAWS/"
+baseurl: "/CBHSPAWS"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
