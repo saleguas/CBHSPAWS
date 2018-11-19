@@ -1,7 +1,7 @@
-- name: I need
-  title: I need
-  testimonial: I need
-  image: img/item-img1.jpg
+- name: Aubrey
+  title: Treasurer
+  testimonial: “I’m Aubrey Rutz, a junior at Cypress Bay High School. I love being able to be a part of PAWS another year, and am so excited to help out more within the rescue community!”
+  image: img/item-aubrey.jpg
 - name: headshots
   title: headshots
   testimonial: headshots
