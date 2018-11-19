@@ -1,0 +1,16 @@
+- name: I need
+  title: I need
+  testimonial: I need
+  image: img/item-img1.jpg
+- name: headshots
+  title: headshots
+  testimonial: headshots
+  image: img/item-img1.jpg
+- name: but noone
+  title: but noone
+  testimonial: but noone
+  image: img/item-img1.jpg
+- name: wants to respond :/
+  title: wants to respond :/
+  testimonial: wants to respond :/
+  image: img/item-img1.jpg

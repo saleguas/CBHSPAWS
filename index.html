@@ -1,0 +1,185 @@
+---
+layout: page
+title: CBHS PAWS
+permalink: /
+---
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<!-- Slider Start -->
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1 class="animated fadeInUp">A CYPRESS BAY CLUB PASSIONATE ABOUT ANIMALS </h1>
+          <p class="animated fadeInUp">We love animals and what we do.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>About Us</h2>
+          </div>
+          <p>We are a club located in Cypress Bay High School devoted to helping and caring for animals. We believe it is egregious how many animals suffer in our modern day society and are working every day to relieve the pain of animals. Our board consists of eight members, each dedicated contributors of our cause.</p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/regret.png" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<section id="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2>ANYONE IS CAPABLE OF HELPING</h2>
+      <p><u>You don't have to be some animal activist or enthusiast in order</u> to help out animals. If you can spare even one hour a week at a shelter or rasing donations, that would be enough to save multiple lives. </p>
+      <p><u>You don't have to be some animal activist or enthusiast in order</u> to join our club. All you have to do is show up to the meetings and you are making a world of difference.</p>
+      <p><u>You don't have to be some animal activist or enthusiast in order</u> to donate or participate. We accept donations from anyone and everyone as well as allow anyone to join us.</p>
+      <a href="#" class="btn btn-view-works">View Works</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Service Start -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>What we do and are</h2>
+        <p>It's impossible to catalog everything we do, so we just listed a few below.</p>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="icon ion-coffee"></i>
+          <h4>Service hours</h4>
+          <p>We provide extensive opportunities for our members to earn service hours.</p>
+       </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-compass"></i>
+          <h4>Fostering</h4>
+          <p>We offer chances and inform our members of how to foster animals</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-image"></i>
+          <h4>Legacy</h4>
+          <p>All our officers and our group pictures are archived in time.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-bug"></i>
+          <h4>Start Up</h4>
+          <p>Started from a small group of people determined to make a difference.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-headphone"></i>
+          <h4>Passionate</h4>
+          <p>We are proud of what we do and put as much effort possible.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-planet"></i>
+          <h4>Adoption</h4>
+          <p>We encourage our members to adopt animals to have a best friend for life.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-leaf"></i>
+          <h4>Size</h4>
+          <p>Our club has only grown since it's creation, <u>and we do not plan on stopping.</u></p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-earth"></i>
+          <h4>Effective</h4>
+          <p>We have already saved a great amount of lives, <u>and we do not plan on stopping.</u></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>We build friendships.</h2>
+          <p>Our members often form everlasting connections and friendships through our club.</p>
+          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Start -->
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Facts about animals</h2>
+        <p>The world is unfair, but it does not have to stay that way.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.data.funfacts.size > 0 %}
+        <div class="block">
+          {% for ff in site.data.funfacts %}
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <i class="{{ ff.icon }}"></i>
+                <h4 class="counter">{{ ff.counter }}</h4>
+                <span>{{ ff.text }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <img src="img/cotation.png" alt="IMG">
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

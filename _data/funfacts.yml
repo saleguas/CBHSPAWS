@@ -1,0 +1,18 @@
+- counter: 6500000
+  icon: ion-speakerphone
+  text: Companion animals enter U.S. shelters per year
+- counter: 1500000
+  icon: ion-heart-broken
+  text: Shelter animals are euthanized in the U.S. per year
+- counter: 78000000
+  icon: ion-pricetag
+  text: Amount of dogs owned in the U.S.
+- counter: 85800000
+  icon: ion-pricetag
+  text: Amount of cats owned in the U.S.
+- counter: 3200000
+  icon: ion-clipboard
+  text: Amount of shelter animals adopted each year.
+- counter: 100000
+  icon: ion-heart-broken
+  text: Amount of companion animals without homes at any given time.
