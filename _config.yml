@@ -14,14 +14,19 @@ keep_files:
 
 
 # Site settings
-title: CBHS PAWS
+title: Cypress bay PAWS
+description: Cypress bay High school dedicated to helping animals.
 subtitle: "CBHS club devoted to helping animals"
 url: "https://saleguas.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/CBHSPAWS"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
-
+social:
+  name: Salvador Aleguas
+  links:
+    - https://www.instagram.com/cypressbaypaws/
+    - https://www.browardschools.com/cypressbay
 # Build settings
 markdown: kramdown
 
@@ -29,6 +34,7 @@ markdown: kramdown
 # ga_tracking_id: "UA-XXXX-1"
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 # Category descriptions (for archive pages)
 descriptions:
   - cat: Cypress bay Paws

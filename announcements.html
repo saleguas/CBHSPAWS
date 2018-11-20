@@ -4,6 +4,7 @@ title: announcements
 permalink: /blog/
 ---
 <!-- Slider Start -->
+<head>
 <section id="global-header">
   <div class="container">
     <div class="row">
@@ -16,6 +17,8 @@ permalink: /blog/
     </div>
   </div>
 </section>
+{% seo %}
+</head>
 {% for post in site.posts %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
