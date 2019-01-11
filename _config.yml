@@ -12,16 +12,16 @@ keep_files:
   - ".git"
   - ".gitignore"
 
-
+#
 # Site settings
 title: Cypress bay PAWS
 description: Cypress bay High school dedicated to helping animals.
 subtitle: "CBHS club devoted to helping animals"
-url: "https://saleguas.github.io" # the base hostname & protocol for your site
+url: "https://cbhspaws.club/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/CBHSPAWS"
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+cover: "/img/cover.png"
+logo: "/img/logo.png"
 social:
   name: Salvador Aleguas
   links:
